@@ -35,7 +35,6 @@
     "storybook": "^7.0.21"
   },
   "dependencies": {
-    "rollup-plugin-peer-deps-external": "^2.2.4",
     "styled-components": "^6.0.0-rc.3"
   },
   "peerDependencies": {

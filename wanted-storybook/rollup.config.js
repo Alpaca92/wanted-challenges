@@ -1,5 +1,4 @@
 import esbuild from "rollup-plugin-esbuild";
-import peerExternal from "rollup-plugin-peer-deps-external";
 import pkg from "./package.json" assert { "type": "json" };
 
 export default {
@@ -20,6 +19,6 @@ export default {
       minify: process.env.NODE_ENV === "production",
       jsx: "automatic",
     }),
-    peerExternal(),
   ],
+  external: ["react", "react-dom", "styled-components"],
 };
