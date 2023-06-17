@@ -20,4 +20,8 @@
 
 8. esm, cjs output 설정
 
-9.
+9. npm login
+
+10. npm publish
+
+11. 사용할 라이브러리에서 설치
